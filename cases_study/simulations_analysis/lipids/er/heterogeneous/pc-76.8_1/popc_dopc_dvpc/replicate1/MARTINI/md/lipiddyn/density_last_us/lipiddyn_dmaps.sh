@@ -1,0 +1,1 @@
+LipidDyn -t center_cut.xtc -f ../../../../../../../../../../../simulations/lipids/er/heterogeneous/pc-76.8_1/popc_dopc_dvpc/replicate1/MARTINI/md/memb/update.gro  -g ../coarse_grained.yml -2d  -ncore 8

@@ -1,0 +1,1 @@
+LipidDyn -t ../../../../../../../../../simulations/atg9plus_vescicles/heterogenous/pc-59_sm-41_1/dopc_lsm_nsm_psm/replicate1/CHARMM36/md/center_traj_memb.xtc -f ../../../../../../../../../simulations/atg9plus_vescicles/heterogenous/pc-59_sm-41_1/dopc_lsm_nsm_psm/replicate1/CHARMM36/md/center_traj_memb.gro -g full_atom.yml -fatslim -ordpar -ncore 8 -c
