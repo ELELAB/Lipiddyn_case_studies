@@ -34,16 +34,21 @@ def plot1(files):
         dataframe["position"] = i
         ax.boxplot(dataframe["Membrane"],
                    positions = [i],
-                   patch_artist=True,)
+                   patch_artist=True,
+                   )
         i += 1
+    plt.xticks([0, 1, 2], 
+               ["35%DOPC24%CHOL19%PSM13%LSM9%NSM",
+                 "59%DOPC19%PSM13%LSM9%NSM",
+                "100%DOPC"])
     plt.savefig("boxplot_thickness.pdf",dpi=300)
 
 
 
 if __name__ == '__main__':
     files = list(sys.argv[1:])
-    #plot1(files)
-    plot2(files)
+    plot1(files)
+    
 
     
 	
